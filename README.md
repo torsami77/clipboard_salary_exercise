@@ -1,0 +1,1 @@
+# clipboard_salary_exercise
