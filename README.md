@@ -5,23 +5,24 @@ https://drive.google.com/file/d/1Gf-isBBtC4hZ7AhMfORJ9uuYC_YFCxyI/view?usp=shari
 - Express
 - Node.js
 - Typescript
-- Docker && Docker Compose
+- Docker
 
 
 ## Set up
 
 After cloning this repo ```git clone https://github.com/torsami77/clipboard_salary_exercise.git```,  check into the root directory ```cd clipboard_salary_exercise```, and run ``` docker compose up``` to install all the dependencies, devDevpendencies, and run the API exposed on ```http://localhost:8080```. 
 
-**See Environnment variables and database has been by passed to simplify the setup run to just "docker compose up"**
+**Environnment variables and database has been by-passed to simplify the setup run to just "docker compose up"**
 **See dependencies, and "devDependencies" section in package.json file for list of all packages that would be installed**
 
+Use ```npm run docker-test``` to run dockerized test or ```npm run test``` to run test
 ## Scripts
 
-```npm run dev```   : to run development mode
-```npm run build``` : to transpile build. see ./dist folder
-```npm start```   : to run production mode
-```npm test```   :  to run sample test on sample cases
-```docker compose up```   :  to spin up server in docker container
+- ```npm run dev```   : to run development mode
+- ```npm run build``` : to transpile build. see ./dist folder
+- ```npm start```   : to run production mode
+- ```npm test```   :  to run sample test on sample cases
+- ```docker compose up```   :  to spin up server in docker container
 
 
 ## API Documentation
@@ -151,22 +152,22 @@ ___
         "sub_department": "Platform"
         
         // Sub Departments List 
-                <!--{-->
-                <!--department_name: "Engineering",-->
-                <!--sub_department: ["Platform"]-->
-                <!--},-->
-                <!--{-->
-                <!--    department_name: "Banking",-->
-                <!--    sub_department: ["Loan"]-->
-                <!--},-->
-                <!--{-->
-                <!--    department_name: "Operations",-->
-                <!--    sub_department: ["CustomerOnboarding"]-->
-                <!--},-->
-                <!--{-->
-                <!--    department_name: "Administration",-->
-                <!--    sub_department: ["Agriculture"]-->
-                <!--}-->
+        //        {
+        //           department_name: "Engineering",
+        //           sub_department: ["Platform"]
+        //        },
+        //        {
+        //            department_name: "Banking",
+        //            sub_department: ["Loan"]
+        //        },
+        //        {
+        //            department_name: "Operations",
+        //            sub_department: ["CustomerOnboarding"]
+        //        },
+        //        {
+        //            department_name: "Administration",
+        //            sub_department: ["Agriculture"]
+        //        }
 }
  ```
  
