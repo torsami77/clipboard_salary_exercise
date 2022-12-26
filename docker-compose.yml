@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    container_name: clipboard_salary_exercise
+    restart: always
+    ports:
+      - 8080:8080
+    command: npm run dev
